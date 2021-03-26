@@ -5,7 +5,8 @@
   "main": "src/index.ts",
   "scripts": {
     "start": "webpack serve --mode development",
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "jest --collect-coverage"
   },
   "author": "samdjro",
   "license": "ISC",
